@@ -1,0 +1,1981 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />-->
+
+    <title>Salo player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/scroll.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <section
+        class="section scroll section-main hero is-fullheight-with-navbar"
+      >
+        <nav
+          class="navbar is-fixed-top"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+              <img src="/img/logo.png" width="112" height="28" />
+            </a>
+
+            <a
+              role="button"
+              class="navbar-burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbar"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div id="navbar" class="navbar-menu">
+            <div class="navbar-start">
+              <div class="buttons">
+                <div class="navbar-item">
+                  <a class="button is-primary"> <span>Home</span> </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="button"> <span>Download</span> </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="button"> <span>Marketplace</span> </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="button"> <span>Whitepaper</span> </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button">
+                    <strong>Connect wallet</strong>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="hero-body section-main__heading">
+          <p class="title">
+            <strong>Salo Player</strong> <br />
+            The Digital Guardian
+          </p>
+          <div class="buttons">
+            <a class="button is-primary"> <span>Download</span> </a>
+            <a class="button"> <span>Whitepaper</span> </a>
+          </div>
+        </div>
+        <video autoplay muted loop id="backgroundVideo">
+          <source src="/img/bg.webm" type="video/webm" />
+        </video>
+      </section>
+      <section class="section scroll section-concept hero">
+        <div class="columns">
+          <div class="column is-one-third">
+            <div class="section-concept__image">
+              <!--              <img src="/img/concept-1.png" alt="concept" />-->
+            </div>
+          </div>
+          <div class="column">
+            <div class="section-concept__wrapper">
+              <div class="section-concept__title">
+                <span>Concept World Building</span>
+                <svg
+                  preserveAspectRatio="none"
+                  viewBox="0 0 655 87"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_f_43_1805)">
+                    <path
+                      d="M19.1452 84H651L616.859 14.5714H512.3L500.945 3H4L19.1452 84Z"
+                      fill="url(#paint0_linear_43_1805)"
+                      fill-opacity="0.5"
+                    />
+                    <path
+                      d="M19.1452 84H651L616.859 14.5714H512.3L500.945 3H4L19.1452 84Z"
+                      stroke="#00D9F8"
+                      stroke-width="2"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_f_43_1805"
+                      x="0.795715"
+                      y="0"
+                      width="653.81"
+                      height="87"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="BackgroundImageFix"
+                        result="shape"
+                      />
+                      <feGaussianBlur
+                        stdDeviation="1"
+                        result="effect1_foregroundBlur_43_1805"
+                      />
+                    </filter>
+                    <linearGradient
+                      id="paint0_linear_43_1805"
+                      x1="327.5"
+                      y1="3"
+                      x2="327.5"
+                      y2="84"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#825DFA" />
+                      <stop offset="0.494792" stop-color="#8E4EF9" />
+                      <stop offset="1" stop-color="#9E52F9" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="section-concept__content">
+                <div class="section-concept__text">
+                  With the advancement of Technology, the Digital Industry (DI)
+                  take an
+                  <br />
+                  important place in the evolution of mankind. And the result
+                  was SALO NETWORK SYSTEM (SNS).
+                  <br />
+                  SNS is an advanced system that covers the world, helping
+                  people from other countries connect to each other without any
+                  problem. And for the best, the SNS is conducted 100% by AI
+                  called SALONO.
+                  <br />
+                  With the help of SALONO, people's life has been taken care of
+                  from the very detail to great achievement like Space
+                  Exploration...
+                  <br />
+                  But when there is Good, there is also Evil. A group of
+                  terrorists from nowhere appeared and attacked the SNS with
+                  some kind of Virus, they named it Ether - as in a potion for
+                  mankind before the spreading of SNS.
+                  <br />
+                  They blindly believe that SNS is binding mankind's evolution,
+                  putting mankind in a slavery system that SNS will take control
+                  of every single thing. Take mankind to extinction.
+                  <br />
+                  SALONO has been fighting against those viruses for a long time
+                  without letting people know about it. But it seems that SALONO
+                  has been pushed back to the corner. This time the Humans will
+                  take a step in and protect SALONO and the SNS.
+                  <br />
+                  Not the military nor police can handle those viruses on the
+                  SNS, but the gamers. They can dive into the SNS by using their
+                  avatar and fight back the virus. Their skill maybe not be
+                  needed in the real world but in SNS, they are
+                  <br />
+                  the real Savior of SNS - of SALONO.
+                  <br />
+                  For now, they said - "No matter how difficult the thing is, we
+                  gamers will not shiver and quit"
+                  <br />
+                  By using their avatar, all of those Gamers dive into the SNS
+                  and rock the Digital World - They are Salo Players - The
+                  Digital Guardian.
+                </div>
+                <a href="#" class="read-more">READMORE</a>
+                <svg
+                  viewBox="0 0 963 846"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="none"
+                >
+                  <g filter="url(#filter0_f_114_825)">
+                    <path
+                      d="M464 840H79.5L6.5 5.5H121L124.5 20.5H756L749 5.5H863.5L888.5 28L957 822.5H483.5L464 840Z"
+                      fill="#1757A5"
+                      fill-opacity="0.5"
+                    />
+                    <path
+                      d="M464 840H79.5L6.5 5.5H121L124.5 20.5H756L749 5.5H863.5L888.5 28L957 822.5H483.5L464 840Z"
+                      stroke="#00D9F8"
+                      stroke-width="3"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_f_114_825"
+                      x="0.863037"
+                      y="0"
+                      width="100%"
+                      height="100%"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="BackgroundImageFix"
+                        result="shape"
+                      />
+                      <feGaussianBlur
+                        stdDeviation="2"
+                        result="effect1_foregroundBlur_114_825"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section scroll section-avatar hero">
+        <div class="section-title">CHOOSE YOUR AVATAR</div>
+        <div class="columns is-desktop section-avatar__columns">
+          <div class="column section-avatar__content-column">
+            <div>
+              <div
+                id="section-avatar__content-slider"
+                class="slider section-avatar__content-slider"
+              >
+                <div class="slider__content">
+                  <div>
+                    <div class="section-avatar__wrapper">
+                      <div class="section-avatar__title">
+                        <span>The Avatar</span>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 586 81"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_503)">
+                            <path
+                              d="M568.47 78H4L34.5 13.7143H127.908L138.053 3H582L568.47 78Z"
+                              fill="url(#paint0_linear_360_503)"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M568.47 78H4L34.5 13.7143H127.908L138.053 3H582L568.47 78Z"
+                              stroke="#00D9F8"
+                              stroke-width="2"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_503"
+                              x="0.418701"
+                              y="0"
+                              width="584.778"
+                              height="81"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="1"
+                                result="effect1_foregroundBlur_360_503"
+                              />
+                            </filter>
+                            <linearGradient
+                              id="paint0_linear_360_503"
+                              x1="293"
+                              y1="3"
+                              x2="293"
+                              y2="78"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#825DFA" />
+                              <stop offset="0.494792" stop-color="#8E4EF9" />
+                              <stop offset="1" stop-color="#9E52F9" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section-avatar__content">
+                        <div class="section-avatar__text">
+                          <strong>3 Character Avatar</strong>
+                          <br />
+                          • Hyper: a Young boy with appearance of an so-called
+                          Alien
+                          <br />
+                          • Rocket: an energetic cyber-cat young girl
+                          <br />
+                          • Blaster: a fine Barbarian-Gentleman with green skin
+                          <br />
+                          <br />
+                          <strong>4 Rarities</strong>
+                          <br />
+                          Common - Uncommon - Rare - Epic
+                          <br />
+                          The Rarities will decide the basic and bonus stats
+                          when leveling up of an avatar.
+                          <br />
+                          <br />
+                          <strong>Stats</strong>
+                          <br />
+                          • Attack: Damage output calculate
+                          <br />
+                          • HP: Character's Health Point
+                          <br />
+                          • Defense: Damage received calculate
+                          <br />
+                          • Critical Rate: Chance of Critical Hit
+                          <br />
+                          • Critical Damage: Damage output of Critical Hit
+                          <br />
+                          • Shoot Speed: Fire rate (reload ammo speed)
+                          <br />
+                          • Move Speed: Movement speed on the field
+                          <br />
+                          Avatar's Stats will raise each time the Avatar level
+                          up through PvE gameplay.
+                        </div>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 861 780"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_502)">
+                            <path
+                              d="M89.5 5.5L68 26.5L6.5 759H429.5L446 774H790L854.5 20.5H306L313 5.5H89.5Z"
+                              fill="#1757A5"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M89.5 5.5L68 26.5L6.5 759H429.5L446 774H790L854.5 20.5H306L313 5.5H89.5Z"
+                              stroke="#00D9F8"
+                              stroke-width="3"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_502"
+                              x="0.868782"
+                              y="0"
+                              width="859.265"
+                              height="779.5"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="2"
+                                result="effect1_foregroundBlur_360_502"
+                              />
+                            </filter>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="section-avatar__wrapper">
+                      <div class="section-avatar__title">
+                        <span>Equipment</span>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 586 81"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_503)">
+                            <path
+                              d="M568.47 78H4L34.5 13.7143H127.908L138.053 3H582L568.47 78Z"
+                              fill="url(#paint0_linear_360_503)"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M568.47 78H4L34.5 13.7143H127.908L138.053 3H582L568.47 78Z"
+                              stroke="#00D9F8"
+                              stroke-width="2"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_503"
+                              x="0.418701"
+                              y="0"
+                              width="584.778"
+                              height="81"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="1"
+                                result="effect1_foregroundBlur_360_503"
+                              />
+                            </filter>
+                            <linearGradient
+                              id="paint0_linear_360_503"
+                              x1="293"
+                              y1="3"
+                              x2="293"
+                              y2="78"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#825DFA" />
+                              <stop offset="0.494792" stop-color="#8E4EF9" />
+                              <stop offset="1" stop-color="#9E52F9" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section-avatar__content">
+                        <div class="section-avatar__text">
+                          At the beginning, an Avatar can only equip 2 weapons,
+                          but after meeting level requirements, Avatar can equip
+                          up to 3 weapons.
+                          <br />
+                          <br />
+                          <strong>Finity Gauntlet</strong>
+                          <br />
+                          Each character will have a number of gem slots similar
+                          to each other.
+                          <br />
+                          • Lvl 5: 1 slot
+                          <br />
+                          • Lvl 10: 2 slots
+                          <br />
+                          • Lvl 15: 3 slots
+                          <br />
+                          • Lvl 20: 4 slots
+                          <br />
+                          • Lvl 25: 5 slots
+                          <br />
+                          • Lvl 30: 6 lots
+                          <br />
+                          Each slot can only contain the exact kind of Gem
+                          <br />
+                          <br />
+                          Each Gem will not only grant bonus Defense and HP, but
+                          also additional special effect.
+                          <br />
+                          Gems have 6 rarities and levels.
+                          <br />
+                          Gems can be obtain by opening UBO.
+                        </div>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 861 780"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_502)">
+                            <path
+                              d="M89.5 5.5L68 26.5L6.5 759H429.5L446 774H790L854.5 20.5H306L313 5.5H89.5Z"
+                              fill="#1757A5"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M89.5 5.5L68 26.5L6.5 759H429.5L446 774H790L854.5 20.5H306L313 5.5H89.5Z"
+                              stroke="#00D9F8"
+                              stroke-width="3"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_502"
+                              x="0.868782"
+                              y="0"
+                              width="859.265"
+                              height="779.5"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="2"
+                                result="effect1_foregroundBlur_360_502"
+                              />
+                            </filter>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="section-avatar__wrapper">
+                      <div class="section-avatar__title">
+                        <span>Avatar Evolution</span>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 586 81"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_503)">
+                            <path
+                              d="M568.47 78H4L34.5 13.7143H127.908L138.053 3H582L568.47 78Z"
+                              fill="url(#paint0_linear_360_503)"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M568.47 78H4L34.5 13.7143H127.908L138.053 3H582L568.47 78Z"
+                              stroke="#00D9F8"
+                              stroke-width="2"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_503"
+                              x="0.418701"
+                              y="0"
+                              width="584.778"
+                              height="81"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="1"
+                                result="effect1_foregroundBlur_360_503"
+                              />
+                            </filter>
+                            <linearGradient
+                              id="paint0_linear_360_503"
+                              x1="293"
+                              y1="3"
+                              x2="293"
+                              y2="78"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#825DFA" />
+                              <stop offset="0.494792" stop-color="#8E4EF9" />
+                              <stop offset="1" stop-color="#9E52F9" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section-avatar__content">
+                        <div class="section-avatar__text">
+                          By using the same Avatar with the same rarity, you can
+                          perform "Evolution" for that Avatar.
+                          <br />
+                          <br />
+                          <strong>Evolve an Avatar will give:</strong>
+                          <br />
+                          • Stats increase
+                          <br />
+                          • Max Level Cap increase
+                          <br />
+                          • More Gem slots can be unlocked
+                          <br />
+                          • More Gun slots
+                          <br />
+                          <br />
+                          <strong>Evolution requirements:</strong>
+                          <br />
+                          • Common: no character required
+                          <br />
+                          • Uncommon: 4 of the same characters with Common
+                          rarity
+                          <br />
+                          • Rare: 4 of the same characters with Uncommon rarity
+                          <br />
+                          • Epic: 4 of the same characters with Rare rarity
+                          <br />
+                          <br />
+                          <strong>Talents</strong>
+                          <br />
+                          • Each Avatar will have different table of Talents
+                          <br />
+                          • Every 5 levels, 3 Talents will be unlocked. Each
+                          Talent can be upgraded maximum of 5 levels
+                          <br />
+                          • Players can use $Byte and items to upgrade Talents
+                        </div>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 861 780"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_502)">
+                            <path
+                              d="M89.5 5.5L68 26.5L6.5 759H429.5L446 774H790L854.5 20.5H306L313 5.5H89.5Z"
+                              fill="#1757A5"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M89.5 5.5L68 26.5L6.5 759H429.5L446 774H790L854.5 20.5H306L313 5.5H89.5Z"
+                              stroke="#00D9F8"
+                              stroke-width="3"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_502"
+                              x="0.868782"
+                              y="0"
+                              width="859.265"
+                              height="779.5"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="2"
+                                result="effect1_foregroundBlur_360_502"
+                              />
+                            </filter>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half-desktop is-flex is-align-items-center">
+            <div
+              id="section-avatar__slider"
+              class="slider section-avatar__slider"
+            >
+              <div class="slider__arrow slider__prev">
+                <svg
+                  width="33"
+                  height="62"
+                  viewBox="0 0 33 62"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M28.7451 0.734941L0.766424 29.1305C0.275021 29.6292 0 30.2982 0 30.9947C0 31.6912 0.275021 32.3601 0.766424 32.8588L28.7451 61.2651C28.974 61.4977 29.2477 61.6825 29.55 61.8087C29.8523 61.935 30.1771 62 30.5053 62C30.8334 62 31.1582 61.935 31.4605 61.8087C31.7628 61.6825 32.0365 61.4977 32.2654 61.2651C32.7364 60.7881 33 60.1478 33 59.481C33 58.8142 32.7364 58.1739 32.2654 57.6969L5.95507 30.9947L32.2654 4.29773C32.7347 3.82099 32.9974 3.18181 32.9974 2.51634C32.9974 1.85086 32.7347 1.21168 32.2654 0.734941C32.0365 0.502353 31.7628 0.317488 31.4605 0.191261C31.1582 0.0650331 30.8334 0 30.5053 0C30.1771 0 29.8523 0.0650331 29.55 0.191261C29.2477 0.317488 28.974 0.502353 28.7451 0.734941Z"
+                    fill="#00D9F8"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+              </div>
+              <div class="slider__content">
+                <div class="section-avatar__image">
+                  <img src="/img/avatar-1.png" alt="avatar" />
+                </div>
+                <div class="section-avatar__image">
+                  <img
+                    style="max-width: 95%"
+                    src="/img/avatar-2.png"
+                    alt="avatar"
+                  />
+                </div>
+                <div class="section-avatar__image">
+                  <img
+                    style="
+                      margin-right: auto;
+                      margin-left: -20px;
+                      max-width: 95%;
+                    "
+                    src="/img/avatar-3.png"
+                    alt="avatar"
+                  />
+                </div>
+              </div>
+              <div class="slider__arrow slider__next">
+                <svg
+                  width="33"
+                  height="62"
+                  viewBox="0 0 33 62"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.25486 0.734941L32.2336 29.1305C32.725 29.6292 33 30.2982 33 30.9947C33 31.6912 32.725 32.3601 32.2336 32.8588L4.25486 61.2651C4.02596 61.4977 3.75228 61.6825 3.44997 61.8087C3.14766 61.935 2.82285 62 2.49472 62C2.16659 62 1.84179 61.935 1.53948 61.8087C1.23717 61.6825 0.963486 61.4977 0.734581 61.2651C0.263649 60.7881 0 60.1478 0 59.481C0 58.8142 0.263649 58.1739 0.734581 57.6969L27.0449 30.9947L0.734581 4.29773C0.265266 3.82099 0.00263596 3.18181 0.00263596 2.51634C0.00263596 1.85086 0.265266 1.21168 0.734581 0.734941C0.963486 0.502353 1.23717 0.317488 1.53948 0.191261C1.84179 0.0650331 2.16659 0 2.49472 0C2.82285 0 3.14766 0.0650331 3.44997 0.191261C3.75228 0.317488 4.02596 0.502353 4.25486 0.734941Z"
+                    fill="#00D9F8"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section scroll section-weapon hero">
+        <div class="section-title">CHOOSE YOUR WEAPON</div>
+        <div class="columns is-desktop">
+          <div
+            class="column is-two-fifths-desktop is-flex is-align-items-center"
+          >
+            <div
+              id="section-weapon__slider"
+              class="slider section-weapon__slider"
+            >
+              <div class="slider__arrow slider__prev">
+                <svg
+                  width="33"
+                  height="62"
+                  viewBox="0 0 33 62"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M28.7451 0.734941L0.766424 29.1305C0.275021 29.6292 0 30.2982 0 30.9947C0 31.6912 0.275021 32.3601 0.766424 32.8588L28.7451 61.2651C28.974 61.4977 29.2477 61.6825 29.55 61.8087C29.8523 61.935 30.1771 62 30.5053 62C30.8334 62 31.1582 61.935 31.4605 61.8087C31.7628 61.6825 32.0365 61.4977 32.2654 61.2651C32.7364 60.7881 33 60.1478 33 59.481C33 58.8142 32.7364 58.1739 32.2654 57.6969L5.95507 30.9947L32.2654 4.29773C32.7347 3.82099 32.9974 3.18181 32.9974 2.51634C32.9974 1.85086 32.7347 1.21168 32.2654 0.734941C32.0365 0.502353 31.7628 0.317488 31.4605 0.191261C31.1582 0.0650331 30.8334 0 30.5053 0C30.1771 0 29.8523 0.0650331 29.55 0.191261C29.2477 0.317488 28.974 0.502353 28.7451 0.734941Z"
+                    fill="#00D9F8"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+              </div>
+              <div class="slider__content">
+                <div class="section-weapon__image">
+                  <img src="/img/weapon-1.png" alt="weapon" />
+                </div>
+                <div class="section-weapon__image">
+                  <img src="/img/weapon-2.png" alt="weapon" />
+                </div>
+                <div class="section-weapon__image">
+                  <img src="/img/weapon-3.png" alt="weapon" />
+                </div>
+              </div>
+              <div class="slider__arrow slider__next">
+                <svg
+                  width="33"
+                  height="62"
+                  viewBox="0 0 33 62"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.25486 0.734941L32.2336 29.1305C32.725 29.6292 33 30.2982 33 30.9947C33 31.6912 32.725 32.3601 32.2336 32.8588L4.25486 61.2651C4.02596 61.4977 3.75228 61.6825 3.44997 61.8087C3.14766 61.935 2.82285 62 2.49472 62C2.16659 62 1.84179 61.935 1.53948 61.8087C1.23717 61.6825 0.963486 61.4977 0.734581 61.2651C0.263649 60.7881 0 60.1478 0 59.481C0 58.8142 0.263649 58.1739 0.734581 57.6969L27.0449 30.9947L0.734581 4.29773C0.265266 3.82099 0.00263596 3.18181 0.00263596 2.51634C0.00263596 1.85086 0.265266 1.21168 0.734581 0.734941C0.963486 0.502353 1.23717 0.317488 1.53948 0.191261C1.84179 0.0650331 2.16659 0 2.49472 0C2.82285 0 3.14766 0.0650331 3.44997 0.191261C3.75228 0.317488 4.02596 0.502353 4.25486 0.734941Z"
+                    fill="#00D9F8"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div>
+              <div
+                id="section-weapon__content-slider"
+                class="slider section-weapon__content-slider"
+              >
+                <div class="slider__content">
+                  <div>
+                    <div class="section-weapon__wrapper">
+                      <div class="section-weapon__title">
+                        <span>Gun & Gun Fragments</span>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 586 81"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_572)">
+                            <path
+                              d="M17.53 78H582L551.5 13.7143H458.092L447.947 3H4L17.53 78Z"
+                              fill="url(#paint0_linear_360_572)"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M17.53 78H582L551.5 13.7143H458.092L447.947 3H4L17.53 78Z"
+                              stroke="#DC00EE"
+                              stroke-width="2"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_572"
+                              x="0.803467"
+                              y="0"
+                              width="584.778"
+                              height="81"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="1"
+                                result="effect1_foregroundBlur_360_572"
+                              />
+                            </filter>
+                            <linearGradient
+                              id="paint0_linear_360_572"
+                              x1="293"
+                              y1="3"
+                              x2="293"
+                              y2="78"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#0E7789" />
+                              <stop offset="0.5" stop-color="#0D91A7" />
+                              <stop offset="1" stop-color="#0DCBEB" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section-weapon__content">
+                        <div class="section-weapon__text">
+                          <strong>6 Rarities</strong>
+                          <br />
+                          Common - Uncommon - Rare - Epic - Legendary - Mythic
+                          <br />
+                          There are 3 ways for players to get a new gun:
+                          <br />
+                          • Earn Gun Fragments from playing PvE
+                          <br />
+                          • Get Gun Fragments from opening UBO
+                          <br />
+                          • Buy a gun from the Marketplace
+                          <br />
+                          When you have enough fragments, you can craft a new
+                          gun.
+                          <br />
+                          <br />
+                          <strong>Stats</strong>
+                          <br />
+                          • Gun Level: The current level of gun, upgradable
+                          <br />
+                          • Gun Star: The power of gun, upgradable
+                          <br />
+                          • Gun attack: Base damage of the Gun
+                          <br />
+                          • Gun damage: Damage output of the gun
+                          <br />
+                          • Bullet range: Range of attack
+                          <br />
+                          • Gun magazine: Number of bullets per magazine
+                          <br />
+                          • Gun reload time: Seconds took to reload
+                          <br />
+                          • Gunfire shoot speed: Delay time between 2 bullets
+                          fired
+                          <br />
+                          • Single fire bullet number: Number of bullet fired
+                          each time shooting
+                          <br />
+                          • Elemental damage: Element of bullet
+                          <br />
+                        </div>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 860 780"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_571)">
+                            <path
+                              d="M770.5 5.5L793 25.5L854 757.5H431L414 774H70.5L6 20H554L547 5.5H770.5Z"
+                              fill="#62026F"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M770.5 5.5L793 25.5L854 757.5H431L414 774H70.5L6 20H554L547 5.5H770.5Z"
+                              stroke="#DC00EE"
+                              stroke-width="3"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_571"
+                              x="0.366211"
+                              y="0"
+                              width="859.264"
+                              height="779.5"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="2"
+                                result="effect1_foregroundBlur_360_571"
+                              />
+                            </filter>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="section-weapon__wrapper">
+                      <div class="section-weapon__title">
+                        <span>Gun</span>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 586 81"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_572)">
+                            <path
+                              d="M17.53 78H582L551.5 13.7143H458.092L447.947 3H4L17.53 78Z"
+                              fill="url(#paint0_linear_360_572)"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M17.53 78H582L551.5 13.7143H458.092L447.947 3H4L17.53 78Z"
+                              stroke="#DC00EE"
+                              stroke-width="2"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_572"
+                              x="0.803467"
+                              y="0"
+                              width="584.778"
+                              height="81"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="1"
+                                result="effect1_foregroundBlur_360_572"
+                              />
+                            </filter>
+                            <linearGradient
+                              id="paint0_linear_360_572"
+                              x1="293"
+                              y1="3"
+                              x2="293"
+                              y2="78"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#0E7789" />
+                              <stop offset="0.5" stop-color="#0D91A7" />
+                              <stop offset="1" stop-color="#0DCBEB" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section-weapon__content">
+                        <div class="section-weapon__text">
+                          <strong>Skills</strong>
+                          <br />
+                          Each Gun can have maximum of 2 skills. Players can
+                          choose to reset and change to other skills. <br />
+                          <br />
+                          All guns share the same Skill Pool.
+                          <br />
+                          <br />
+                          <strong>Bullet Element</strong>
+                          <br />
+                          There are 5 types of Element, which will have
+                          advantages/disadvantages against each other.
+                          <br />
+                          Each gun only have 1 Bullet Element.
+                          <br />
+                          • Electric
+                          <br />
+                          • Kinetic
+                          <br />
+                          • Fire
+                          <br />
+                          • Ice
+                          <br />
+                          • Venom
+                          <br />
+                        </div>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 860 780"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_571)">
+                            <path
+                              d="M770.5 5.5L793 25.5L854 757.5H431L414 774H70.5L6 20H554L547 5.5H770.5Z"
+                              fill="#62026F"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M770.5 5.5L793 25.5L854 757.5H431L414 774H70.5L6 20H554L547 5.5H770.5Z"
+                              stroke="#DC00EE"
+                              stroke-width="3"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_571"
+                              x="0.366211"
+                              y="0"
+                              width="859.264"
+                              height="779.5"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="2"
+                                result="effect1_foregroundBlur_360_571"
+                              />
+                            </filter>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="section-weapon__wrapper">
+                      <div class="section-weapon__title">
+                        <span>Additional power up</span>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 586 81"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_572)">
+                            <path
+                              d="M17.53 78H582L551.5 13.7143H458.092L447.947 3H4L17.53 78Z"
+                              fill="url(#paint0_linear_360_572)"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M17.53 78H582L551.5 13.7143H458.092L447.947 3H4L17.53 78Z"
+                              stroke="#DC00EE"
+                              stroke-width="2"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_572"
+                              x="0.803467"
+                              y="0"
+                              width="584.778"
+                              height="81"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="1"
+                                result="effect1_foregroundBlur_360_572"
+                              />
+                            </filter>
+                            <linearGradient
+                              id="paint0_linear_360_572"
+                              x1="293"
+                              y1="3"
+                              x2="293"
+                              y2="78"
+                              gradientUnits="userSpaceOnUse"
+                            >
+                              <stop stop-color="#0E7789" />
+                              <stop offset="0.5" stop-color="#0D91A7" />
+                              <stop offset="1" stop-color="#0DCBEB" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="section-weapon__content">
+                        <div class="section-weapon__text">
+                          <strong>Plug-in</strong>
+                          <br />
+                          Plug-in is an item that will help enhance Gun's power
+                          by increasing Stats or get new Attribute.
+                          <br />
+                          Players can claim Plug-in by opening UBO.
+                          <br />
+                          There are three Plug-in slot: Red - Yellow - Blue Each
+                          slot can equip total 2 types of plug-in: 1 with the
+                          same color as the slot, and the other with the
+                          different color from all the slots.
+                          <br />
+                          <br />
+                          <strong>Upgrade</strong>
+                          <br />
+                          Upgrade will increase Gun Attack stat.
+                          <br />
+                          Upgrade will require Upgrade Chip and $Byte.
+                          <br />
+                          Every 10 level, there will be a Limit Breaking step to
+                          further upgrading the gun. More and more resource will
+                          be consume each time.
+                          <br />
+                          <br />
+                          <strong>Evolution</strong>
+                          <br />
+                          Evolution will increase almost every stats of the gun
+                          except for Gun attack (Which was increased through
+                          upgrading).
+                          <br />
+                          Gun Fragments and $Byte are needed to be able to
+                          perform gun evolution.
+                          <br />
+                        </div>
+                        <svg
+                          preserveAspectRatio="none"
+                          viewBox="0 0 860 780"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g filter="url(#filter0_f_360_571)">
+                            <path
+                              d="M770.5 5.5L793 25.5L854 757.5H431L414 774H70.5L6 20H554L547 5.5H770.5Z"
+                              fill="#62026F"
+                              fill-opacity="0.5"
+                            />
+                            <path
+                              d="M770.5 5.5L793 25.5L854 757.5H431L414 774H70.5L6 20H554L547 5.5H770.5Z"
+                              stroke="#DC00EE"
+                              stroke-width="3"
+                            />
+                          </g>
+                          <defs>
+                            <filter
+                              id="filter0_f_360_571"
+                              x="0.366211"
+                              y="0"
+                              width="859.264"
+                              height="779.5"
+                              filterUnits="userSpaceOnUse"
+                              color-interpolation-filters="sRGB"
+                            >
+                              <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                              />
+                              <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="BackgroundImageFix"
+                                result="shape"
+                              />
+                              <feGaussianBlur
+                                stdDeviation="2"
+                                result="effect1_foregroundBlur_360_571"
+                              />
+                            </filter>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section scroll section-protect hero">
+        <div class="section-title">Protect the SALO NETWORK SYSTEM</div>
+        <div class="columns is-desktop">
+          <div class="column is-two-fifths-desktop has-text-centered">
+            <div class="section-protect__content">
+              <div
+                id="section-protect__slider"
+                class="slider section-protect__slider"
+              >
+                <div class="slider__arrow slider__prev">
+                  <svg
+                    width="33"
+                    height="62"
+                    viewBox="0 0 33 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28.7451 0.734941L0.766424 29.1305C0.275021 29.6292 0 30.2982 0 30.9947C0 31.6912 0.275021 32.3601 0.766424 32.8588L28.7451 61.2651C28.974 61.4977 29.2477 61.6825 29.55 61.8087C29.8523 61.935 30.1771 62 30.5053 62C30.8334 62 31.1582 61.935 31.4605 61.8087C31.7628 61.6825 32.0365 61.4977 32.2654 61.2651C32.7364 60.7881 33 60.1478 33 59.481C33 58.8142 32.7364 58.1739 32.2654 57.6969L5.95507 30.9947L32.2654 4.29773C32.7347 3.82099 32.9974 3.18181 32.9974 2.51634C32.9974 1.85086 32.7347 1.21168 32.2654 0.734941C32.0365 0.502353 31.7628 0.317488 31.4605 0.191261C31.1582 0.0650331 30.8334 0 30.5053 0C30.1771 0 29.8523 0.0650331 29.55 0.191261C29.2477 0.317488 28.974 0.502353 28.7451 0.734941Z"
+                      fill="#00D9F8"
+                      fill-opacity="0.5"
+                    />
+                  </svg>
+                </div>
+                <div class="slider__content">
+                  <div class="section-protect__text">
+                    To clear a stage, Players have to eliminate all enemies,
+                    then move to Boss stage or Portal to finish.
+                    <br />
+                    If defeated, Player can be revived once per stage, costing
+                    $Byte.
+                    <br />
+                    Reward will be calculated based on 3 factors:
+                    <br />
+                    • Level clear
+                    <br />
+                    • Finishing time
+                    <br />
+                    • Remaining HP
+                  </div>
+                  <div class="section-protect__text">
+                    <strong>SINGLE PLAYER - PvE</strong>
+                    <br />
+                    • Mission
+                    <br />
+                    • Challenge
+                    <br />
+                    • Rift
+                    <br />
+                    • Boss Warning!
+                    <br />
+                    In every PvE modes, the will be Boss stages.
+                    <br />
+                    A Boss will have more HP than normal monsters. Furthermore,
+                    Each boss has different unique abilities and element
+                    resistance.
+                  </div>
+                  <div class="section-protect__text">
+                    <strong>MULITI PLAYER - PvP</strong>
+                    <br />
+                    • Arena Mode
+                    <br />
+                    • Tournament Mode
+                    <br />
+                    • Guild War Mode
+                    <br />
+                  </div>
+                </div>
+                <div class="slider__arrow slider__next">
+                  <svg
+                    width="33"
+                    height="62"
+                    viewBox="0 0 33 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.25486 0.734941L32.2336 29.1305C32.725 29.6292 33 30.2982 33 30.9947C33 31.6912 32.725 32.3601 32.2336 32.8588L4.25486 61.2651C4.02596 61.4977 3.75228 61.6825 3.44997 61.8087C3.14766 61.935 2.82285 62 2.49472 62C2.16659 62 1.84179 61.935 1.53948 61.8087C1.23717 61.6825 0.963486 61.4977 0.734581 61.2651C0.263649 60.7881 0 60.1478 0 59.481C0 58.8142 0.263649 58.1739 0.734581 57.6969L27.0449 30.9947L0.734581 4.29773C0.265266 3.82099 0.00263596 3.18181 0.00263596 2.51634C0.00263596 1.85086 0.265266 1.21168 0.734581 0.734941C0.963486 0.502353 1.23717 0.317488 1.53948 0.191261C1.84179 0.0650331 2.16659 0 2.49472 0C2.82285 0 3.14766 0.0650331 3.44997 0.191261C3.75228 0.317488 4.02596 0.502353 4.25486 0.734941Z"
+                      fill="#00D9F8"
+                      fill-opacity="0.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <a class="button mt-4">
+                <span>Download now</span>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div>
+              <div
+                id="section-protect__content-slider"
+                class="slider section-protect__content-slider"
+              >
+                <div class="slider__content">
+                  <div>
+                    <div class="section-protect__video">
+                      <iframe
+                        id="video1"
+                        width="100%"
+                        height="562"
+                        src="https://www.youtube.com/embed/9Xx9y-9wTng"
+                      >
+                      </iframe>
+                      <svg
+                        preserveAspectRatio="none"
+                        viewBox="0 0 1006 602"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3 36V598L1003 597V36V3.5H640L618 36H3Z"
+                          fill="#1757A5"
+                          fill-opacity="0.5"
+                        />
+                        <path
+                          d="M3 34.5H1.5V36V598V599.502L3.0015 599.5L1003 598.5L1004.5 598.498V597V36V3.5V2H1003H640H639.204L638.758 2.65915L617.204 34.5H3Z"
+                          stroke="#00D9F8"
+                          stroke-opacity="0.5"
+                          stroke-width="3"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section scroll section-roadmap hero">
+        <div class="section-title">ROADMAP</div>
+        <div class="section-roadmap__cards">
+          <div class="columns is-desktop">
+            <div class="column">
+              <div data-inviewport="fade-1" class="section-roadmap__card">
+                <img src="/img/card.png" />
+                <div class="section-roadmap__card__content">
+                  <span>· Idea and Brainstorm</span>
+                  <span> · Story Creation </span>
+                  <span> · Art/Concept design </span>
+                  <span> · Character design </span>
+                  <span> · Game design </span>
+                </div>
+                <div class="section-roadmap__card__date">Q4-2021</div>
+              </div>
+            </div>
+            <div class="column">
+              <div data-inviewport="fade-2" class="section-roadmap__card">
+                <img src="/img/card.png" />
+                <div class="section-roadmap__card__content">
+                  <span>· Game building, both mobile and web-based </span>
+                  <span> · Release Demo Version 1.0 (For Partners) </span>
+                  <span> · Create Smart Contract </span>
+                  <span> · Release Demo Version 1.1 (For Communities) </span>
+                  <span> · Release NFT Marketplace </span>
+                </div>
+                <div class="section-roadmap__card__date">Q1-2022</div>
+              </div>
+            </div>
+            <div class="column">
+              <div data-inviewport="fade-3" class="section-roadmap__card">
+                <img src="/img/card.png" />
+
+                <div class="section-roadmap__card__content">
+                  <span
+                    >· Release Testnet Version 1.0 with Campaign features (Story
+                    Mode)
+                  </span>
+                  <span> · Collect Rewards </span>
+                  <span>
+                    · Upgrade features with Rewards and NFTs (Avatar, Unit, ...)
+                  </span>
+                  <span> · Release Play-to-Earn mode </span>
+                  <span> · Craft Equipment from Reward Fragments</span>
+                  <span> · Item exchange shop available in-game </span>
+                </div>
+
+                <div class="section-roadmap__card__date">Q2-2022</div>
+              </div>
+            </div>
+            <div class="column">
+              <div data-inviewport="fade-4" class="section-roadmap__card">
+                <img src="/img/card.png" />
+
+                <div class="section-roadmap__card__content">
+                  <span>· Release PVP Arena Battle Mode </span>
+                  <span> · Adding Ranking PvP with Rewards </span>
+                  <span> · Unlock Equipment on Marketplace </span>
+                </div>
+                <div class="section-roadmap__card__date">Q3-2022</div>
+              </div>
+            </div>
+            <div class="column">
+              <div data-inviewport="fade-5" class="section-roadmap__card">
+                <img src="/img/card.png" />
+
+                <div class="section-roadmap__card__content">
+                  <span>· Release Co-op features </span>
+                  <span> · PvE Daily (Dungeon & Boss Mode) </span>
+                  <span> · Release 2v2 Co-op and PvP Strategic </span>
+                  <span> · Cooperation and product development </span>
+                </div>
+
+                <div class="section-roadmap__card__date">Q4-2022</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-roadmap__mobile-timeline">
+          <div class="timeline">
+            <ul>
+              <li>
+                <div class="time">Phase 1 - Q4/2021</div>
+                <div class="content">
+                  <div class="section-roadmap__card">
+                    <img src="/img/card.png" />
+                    <div class="section-roadmap__card__content">
+                      <span>· Idea and Brainstorm</span>
+                      <span> · Story Creation </span>
+                      <span> · Art/Concept design </span>
+                      <span> · Character design </span>
+                      <span> · Game design </span>
+                    </div>
+                    <div class="section-roadmap__card__date">Q4-2021</div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="time">Phase 2 - Q1/2022</div>
+                <div class="content">
+                  <div class="section-roadmap__card">
+                    <img src="/img/card.png" />
+                    <div class="section-roadmap__card__content">
+                      <span>· Game building, both mobile and web-based </span>
+                      <span> · Release Demo Version 1.0 (For Partners) </span>
+                      <span> · Create Smart Contract </span>
+                      <span>
+                        · Release Demo Version 1.1 (For Communities)
+                      </span>
+                      <span> · Release NFT Marketplace </span>
+                    </div>
+                    <div class="section-roadmap__card__date">Q1-2022</div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="time">Phase 3 - Q2/2022</div>
+                <div class="content">
+                  <div class="section-roadmap__card">
+                    <img src="/img/card.png" />
+
+                    <div class="section-roadmap__card__content">
+                      <span
+                        >· Release Testnet Version 1.0 with Campaign features
+                        (Story Mode)
+                      </span>
+                      <span> · Collect Rewards </span>
+                      <span>
+                        · Upgrade features with Rewards and NFTs (Avatar, Unit,
+                        ...)
+                      </span>
+                      <span> · Release Play-to-Earn mode </span>
+                      <span> · Craft Equipment from Reward Fragments</span>
+                      <span> · Item exchange shop available in-game </span>
+                    </div>
+
+                    <div class="section-roadmap__card__date">Q2-2022</div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="time">Phase 4 - Q3/2022</div>
+
+                <div class="content">
+                  <div class="section-roadmap__card">
+                    <img src="/img/card.png" />
+
+                    <div class="section-roadmap__card__content">
+                      <span>· Release PVP Arena Battle Mode </span>
+                      <span> · Adding Ranking PvP with Rewards </span>
+                      <span> · Unlock Equipment on Marketplace </span>
+                    </div>
+                    <div class="section-roadmap__card__date">Q3-2022</div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="time">Phase 5 - Q4/2022</div>
+
+                <div class="content">
+                  <div class="section-roadmap__card">
+                    <img src="/img/card.png" />
+
+                    <div class="section-roadmap__card__content">
+                      <span>· Release Co-op features </span>
+                      <span> · PvE Daily (Dungeon & Boss Mode) </span>
+                      <span> · Release 2v2 Co-op and PvP Strategic </span>
+                      <span> · Cooperation and product development </span>
+                    </div>
+
+                    <div class="section-roadmap__card__date">Q4-2022</div>
+                  </div>
+                </div>
+              </li>
+
+              <div style="clear: both"></div>
+            </ul>
+          </div>
+        </div>
+        <svg
+          preserveAspectRatio="none"
+          viewBox="0 0 1882 695"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1656.62 289L-107.193 580.556L80.0159 808.764L1724.78 289H1656.62Z"
+            fill="#00D9F8"
+            fill-opacity="0.5"
+            stroke="#00D9F8"
+            stroke-width="3"
+          />
+          <path
+            d="M1805.45 61.889L1762.46 222H1814.29L1848.53 61.1876L1848.79 60H1850H1878.72L1840.68 2.24437L1773.07 60H1804H1805.96L1805.45 61.889Z"
+            fill="#00D9F8"
+            fill-opacity="0.5"
+            stroke="#00D9F8"
+            stroke-width="3"
+          />
+          <path
+            d="M1733.38 286L1770.49 161H1714.47L1658.81 286H1733.38Z"
+            fill="#00D9F8"
+            fill-opacity="0.5"
+            stroke="#00D9F8"
+            stroke-width="3"
+          />
+          <path
+            d="M327 630C327 653.748 288.273 673 240.5 673C192.727 673 154 653.748 154 630C154 606.252 192.727 587 240.5 587C288.273 587 327 606.252 327 630Z"
+            fill="#62026F"
+            fill-opacity="0.5"
+          />
+          <path
+            d="M239.5 630.011C239.506 631.392 240.631 632.506 242.011 632.5C243.392 632.494 244.506 631.369 244.5 629.989L239.5 630.011ZM243.5 407.989C243.494 406.608 242.369 405.494 240.989 405.5C239.608 405.506 238.494 406.631 238.5 408.011L243.5 407.989ZM238.542 417.261C238.548 418.642 239.672 419.756 241.053 419.75C242.434 419.744 243.548 418.619 243.542 417.239L238.542 417.261ZM243.625 435.739C243.619 434.358 242.494 433.244 241.114 433.25C239.733 433.256 238.619 434.381 238.625 435.761L243.625 435.739ZM238.708 454.261C238.715 455.642 239.839 456.756 241.22 456.75C242.6 456.744 243.715 455.619 243.708 454.239L238.708 454.261ZM243.792 472.739C243.785 471.358 242.661 470.244 241.28 470.25C239.9 470.256 238.785 471.381 238.792 472.761L243.792 472.739ZM238.875 491.261C238.881 492.642 240.006 493.756 241.386 493.75C242.767 493.744 243.881 492.619 243.875 491.239L238.875 491.261ZM243.958 509.739C243.952 508.358 242.828 507.244 241.447 507.25C240.066 507.256 238.952 508.381 238.958 509.761L243.958 509.739ZM239.042 528.261C239.048 529.642 240.172 530.756 241.553 530.75C242.934 530.744 244.048 529.619 244.042 528.239L239.042 528.261ZM244.125 546.739C244.119 545.358 242.994 544.244 241.614 544.25C240.233 544.256 239.119 545.381 239.125 546.761L244.125 546.739ZM239.208 565.261C239.215 566.642 240.339 567.756 241.72 567.75C243.1 567.744 244.215 566.619 244.208 565.239L239.208 565.261ZM244.292 583.739C244.285 582.358 243.161 581.244 241.78 581.25C240.4 581.256 239.285 582.381 239.292 583.761L244.292 583.739ZM239.375 602.261C239.381 603.642 240.506 604.756 241.886 604.75C243.267 604.744 244.381 603.619 244.375 602.239L239.375 602.261ZM244.458 620.739C244.452 619.358 243.328 618.244 241.947 618.25C240.566 618.256 239.452 619.381 239.458 620.761L244.458 620.739ZM238.5 408.011L238.542 417.261L243.542 417.239L243.5 407.989L238.5 408.011ZM238.625 435.761L238.708 454.261L243.708 454.239L243.625 435.739L238.625 435.761ZM238.792 472.761L238.875 491.261L243.875 491.239L243.792 472.739L238.792 472.761ZM238.958 509.761L239.042 528.261L244.042 528.239L243.958 509.739L238.958 509.761ZM239.125 546.761L239.208 565.261L244.208 565.239L244.125 546.739L239.125 546.761ZM239.292 583.761L239.375 602.261L244.375 602.239L244.292 583.739L239.292 583.761ZM239.458 620.761L239.5 630.011L244.5 629.989L244.458 620.739L239.458 620.761Z"
+            fill="#FAB735"
+          />
+          <ellipse
+            cx="559.5"
+            cy="559"
+            rx="68.5"
+            ry="34"
+            fill="#62026F"
+            fill-opacity="0.5"
+          />
+          <path
+            d="M557.5 560C557.5 561.381 558.619 562.5 560 562.5C561.381 562.5 562.5 561.381 562.5 560H557.5ZM562.5 357C562.5 355.619 561.381 354.5 560 354.5C558.619 354.5 557.5 355.619 557.5 357H562.5ZM557.5 367.15C557.5 368.531 558.619 369.65 560 369.65C561.381 369.65 562.5 368.531 562.5 367.15H557.5ZM562.5 387.45C562.5 386.069 561.381 384.95 560 384.95C558.619 384.95 557.5 386.069 557.5 387.45H562.5ZM557.5 407.75C557.5 409.131 558.619 410.25 560 410.25C561.381 410.25 562.5 409.131 562.5 407.75H557.5ZM562.5 428.05C562.5 426.669 561.381 425.55 560 425.55C558.619 425.55 557.5 426.669 557.5 428.05H562.5ZM557.5 448.35C557.5 449.731 558.619 450.85 560 450.85C561.381 450.85 562.5 449.731 562.5 448.35H557.5ZM562.5 468.65C562.5 467.269 561.381 466.15 560 466.15C558.619 466.15 557.5 467.269 557.5 468.65H562.5ZM557.5 488.95C557.5 490.331 558.619 491.45 560 491.45C561.381 491.45 562.5 490.331 562.5 488.95H557.5ZM562.5 509.25C562.5 507.869 561.381 506.75 560 506.75C558.619 506.75 557.5 507.869 557.5 509.25H562.5ZM557.5 529.55C557.5 530.931 558.619 532.05 560 532.05C561.381 532.05 562.5 530.931 562.5 529.55H557.5ZM562.5 549.85C562.5 548.469 561.381 547.35 560 547.35C558.619 547.35 557.5 548.469 557.5 549.85H562.5ZM557.5 357V367.15H562.5V357H557.5ZM557.5 387.45V407.75H562.5V387.45H557.5ZM557.5 428.05V448.35H562.5V428.05H557.5ZM557.5 468.65V488.95H562.5V468.65H557.5ZM557.5 509.25V529.55H562.5V509.25H557.5ZM557.5 549.85V560H562.5V549.85H557.5Z"
+            fill="#92D041"
+          />
+          <ellipse
+            cx="879.5"
+            cy="483"
+            rx="56.5"
+            ry="28"
+            fill="#62026F"
+            fill-opacity="0.5"
+          />
+          <path
+            d="M876.5 481C876.5 482.381 877.619 483.5 879 483.5C880.381 483.5 881.5 482.381 881.5 481H876.5ZM881.5 317C881.5 315.619 880.381 314.5 879 314.5C877.619 314.5 876.5 315.619 876.5 317H881.5ZM876.5 327.25C876.5 328.631 877.619 329.75 879 329.75C880.381 329.75 881.5 328.631 881.5 327.25H876.5ZM881.5 347.75C881.5 346.369 880.381 345.25 879 345.25C877.619 345.25 876.5 346.369 876.5 347.75H881.5ZM876.5 368.25C876.5 369.631 877.619 370.75 879 370.75C880.381 370.75 881.5 369.631 881.5 368.25H876.5ZM881.5 388.75C881.5 387.369 880.381 386.25 879 386.25C877.619 386.25 876.5 387.369 876.5 388.75H881.5ZM876.5 409.25C876.5 410.631 877.619 411.75 879 411.75C880.381 411.75 881.5 410.631 881.5 409.25H876.5ZM881.5 429.75C881.5 428.369 880.381 427.25 879 427.25C877.619 427.25 876.5 428.369 876.5 429.75H881.5ZM876.5 450.25C876.5 451.631 877.619 452.75 879 452.75C880.381 452.75 881.5 451.631 881.5 450.25H876.5ZM881.5 470.75C881.5 469.369 880.381 468.25 879 468.25C877.619 468.25 876.5 469.369 876.5 470.75H881.5ZM876.5 317V327.25H881.5V317H876.5ZM876.5 347.75V368.25H881.5V347.75H876.5ZM876.5 388.75V409.25H881.5V388.75H876.5ZM876.5 429.75V450.25H881.5V429.75H876.5ZM876.5 470.75V481H881.5V470.75H876.5Z"
+            fill="#02A7D0"
+          />
+          <ellipse
+            cx="1196.5"
+            cy="412"
+            rx="37.5"
+            ry="19"
+            fill="#62026F"
+            fill-opacity="0.5"
+          />
+          <path
+            d="M1195.5 412C1195.5 412.828 1196.17 413.5 1197 413.5C1197.83 413.5 1198.5 412.828 1198.5 412H1195.5ZM1198.5 272C1198.5 271.172 1197.83 270.5 1197 270.5C1196.17 270.5 1195.5 271.172 1195.5 272H1198.5ZM1195.5 280.75C1195.5 281.578 1196.17 282.25 1197 282.25C1197.83 282.25 1198.5 281.578 1198.5 280.75H1195.5ZM1198.5 298.25C1198.5 297.422 1197.83 296.75 1197 296.75C1196.17 296.75 1195.5 297.422 1195.5 298.25H1198.5ZM1195.5 315.75C1195.5 316.578 1196.17 317.25 1197 317.25C1197.83 317.25 1198.5 316.578 1198.5 315.75H1195.5ZM1198.5 333.25C1198.5 332.422 1197.83 331.75 1197 331.75C1196.17 331.75 1195.5 332.422 1195.5 333.25H1198.5ZM1195.5 350.75C1195.5 351.578 1196.17 352.25 1197 352.25C1197.83 352.25 1198.5 351.578 1198.5 350.75H1195.5ZM1198.5 368.25C1198.5 367.422 1197.83 366.75 1197 366.75C1196.17 366.75 1195.5 367.422 1195.5 368.25H1198.5ZM1195.5 385.75C1195.5 386.578 1196.17 387.25 1197 387.25C1197.83 387.25 1198.5 386.578 1198.5 385.75H1195.5ZM1198.5 403.25C1198.5 402.422 1197.83 401.75 1197 401.75C1196.17 401.75 1195.5 402.422 1195.5 403.25H1198.5ZM1195.5 272V280.75H1198.5V272H1195.5ZM1195.5 298.25V315.75H1198.5V298.25H1195.5ZM1195.5 333.25V350.75H1198.5V333.25H1195.5ZM1195.5 368.25V385.75H1198.5V368.25H1195.5ZM1195.5 403.25V412H1198.5V403.25H1195.5Z"
+            fill="#0170BF"
+          />
+          <ellipse
+            cx="1510.5"
+            cy="334"
+            rx="24.5"
+            ry="12"
+            fill="#62026F"
+            fill-opacity="0.5"
+          />
+          <path
+            d="M1510 334C1510 334.552 1510.45 335 1511 335C1511.55 335 1512 334.552 1512 334H1510ZM1512 222C1512 221.448 1511.55 221 1511 221C1510.45 221 1510 221.448 1510 222H1512ZM1510 231.333C1510 231.886 1510.45 232.333 1511 232.333C1511.55 232.333 1512 231.886 1512 231.333H1510ZM1512 250C1512 249.448 1511.55 249 1511 249C1510.45 249 1510 249.448 1510 250H1512ZM1510 268.667C1510 269.219 1510.45 269.667 1511 269.667C1511.55 269.667 1512 269.219 1512 268.667H1510ZM1512 287.333C1512 286.781 1511.55 286.333 1511 286.333C1510.45 286.333 1510 286.781 1510 287.333H1512ZM1510 306C1510 306.552 1510.45 307 1511 307C1511.55 307 1512 306.552 1512 306H1510ZM1512 324.667C1512 324.114 1511.55 323.667 1511 323.667C1510.45 323.667 1510 324.114 1510 324.667H1512ZM1510 222V231.333H1512V222H1510ZM1510 250V268.667H1512V250H1510ZM1510 287.333V306H1512V287.333H1510ZM1510 324.667V334H1512V324.667H1510Z"
+            fill="#DC00EE"
+          />
+        </svg>
+      </section>
+      <section class="section scroll section-tokenomics hero">
+        <div class="section-title">TOKENOMICS</div>
+        <div
+          id="section-tokenomics__slider"
+          class="slider section-tokenomics__slider"
+        >
+          <div class="slider__arrow slider__prev">
+            <svg
+              width="33"
+              height="62"
+              viewBox="0 0 33 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28.7451 0.734941L0.766424 29.1305C0.275021 29.6292 0 30.2982 0 30.9947C0 31.6912 0.275021 32.3601 0.766424 32.8588L28.7451 61.2651C28.974 61.4977 29.2477 61.6825 29.55 61.8087C29.8523 61.935 30.1771 62 30.5053 62C30.8334 62 31.1582 61.935 31.4605 61.8087C31.7628 61.6825 32.0365 61.4977 32.2654 61.2651C32.7364 60.7881 33 60.1478 33 59.481C33 58.8142 32.7364 58.1739 32.2654 57.6969L5.95507 30.9947L32.2654 4.29773C32.7347 3.82099 32.9974 3.18181 32.9974 2.51634C32.9974 1.85086 32.7347 1.21168 32.2654 0.734941C32.0365 0.502353 31.7628 0.317488 31.4605 0.191261C31.1582 0.0650331 30.8334 0 30.5053 0C30.1771 0 29.8523 0.0650331 29.55 0.191261C29.2477 0.317488 28.974 0.502353 28.7451 0.734941Z"
+                fill="#00D9F8"
+                fill-opacity="0.5"
+              />
+            </svg>
+          </div>
+          <div class="slider__content">
+            <img
+              class="desktop"
+              src="/img/tokenomics.png"
+              width="100%"
+              height="100%"
+            />
+            <img
+              class="desktop"
+              src="/img/tokenomics-2.png"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="slider__arrow slider__next">
+            <svg
+              width="33"
+              height="62"
+              viewBox="0 0 33 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.25486 0.734941L32.2336 29.1305C32.725 29.6292 33 30.2982 33 30.9947C33 31.6912 32.725 32.3601 32.2336 32.8588L4.25486 61.2651C4.02596 61.4977 3.75228 61.6825 3.44997 61.8087C3.14766 61.935 2.82285 62 2.49472 62C2.16659 62 1.84179 61.935 1.53948 61.8087C1.23717 61.6825 0.963486 61.4977 0.734581 61.2651C0.263649 60.7881 0 60.1478 0 59.481C0 58.8142 0.263649 58.1739 0.734581 57.6969L27.0449 30.9947L0.734581 4.29773C0.265266 3.82099 0.00263596 3.18181 0.00263596 2.51634C0.00263596 1.85086 0.265266 1.21168 0.734581 0.734941C0.963486 0.502353 1.23717 0.317488 1.53948 0.191261C1.84179 0.0650331 2.16659 0 2.49472 0C2.82285 0 3.14766 0.0650331 3.44997 0.191261C3.75228 0.317488 4.02596 0.502353 4.25486 0.734941Z"
+                fill="#00D9F8"
+                fill-opacity="0.5"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          id="section-tokenomics__slider-mobile"
+          class="slider section-tokenomics__slider-mobile"
+        >
+          <div class="slider__arrow slider__prev">
+            <svg
+              width="33"
+              height="62"
+              viewBox="0 0 33 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28.7451 0.734941L0.766424 29.1305C0.275021 29.6292 0 30.2982 0 30.9947C0 31.6912 0.275021 32.3601 0.766424 32.8588L28.7451 61.2651C28.974 61.4977 29.2477 61.6825 29.55 61.8087C29.8523 61.935 30.1771 62 30.5053 62C30.8334 62 31.1582 61.935 31.4605 61.8087C31.7628 61.6825 32.0365 61.4977 32.2654 61.2651C32.7364 60.7881 33 60.1478 33 59.481C33 58.8142 32.7364 58.1739 32.2654 57.6969L5.95507 30.9947L32.2654 4.29773C32.7347 3.82099 32.9974 3.18181 32.9974 2.51634C32.9974 1.85086 32.7347 1.21168 32.2654 0.734941C32.0365 0.502353 31.7628 0.317488 31.4605 0.191261C31.1582 0.0650331 30.8334 0 30.5053 0C30.1771 0 29.8523 0.0650331 29.55 0.191261C29.2477 0.317488 28.974 0.502353 28.7451 0.734941Z"
+                fill="#00D9F8"
+                fill-opacity="0.5"
+              />
+            </svg>
+          </div>
+          <div class="slider__content">
+            <img
+              class="mobile"
+              src="/img/tokenomics-1-mobile.png"
+              width="100%"
+              height="100%"
+            />
+            <img
+              class="mobile"
+              src="/img/tokenomics-2-mobile.png"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="slider__arrow slider__next">
+            <svg
+              width="33"
+              height="62"
+              viewBox="0 0 33 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.25486 0.734941L32.2336 29.1305C32.725 29.6292 33 30.2982 33 30.9947C33 31.6912 32.725 32.3601 32.2336 32.8588L4.25486 61.2651C4.02596 61.4977 3.75228 61.6825 3.44997 61.8087C3.14766 61.935 2.82285 62 2.49472 62C2.16659 62 1.84179 61.935 1.53948 61.8087C1.23717 61.6825 0.963486 61.4977 0.734581 61.2651C0.263649 60.7881 0 60.1478 0 59.481C0 58.8142 0.263649 58.1739 0.734581 57.6969L27.0449 30.9947L0.734581 4.29773C0.265266 3.82099 0.00263596 3.18181 0.00263596 2.51634C0.00263596 1.85086 0.265266 1.21168 0.734581 0.734941C0.963486 0.502353 1.23717 0.317488 1.53948 0.191261C1.84179 0.0650331 2.16659 0 2.49472 0C2.82285 0 3.14766 0.0650331 3.44997 0.191261C3.75228 0.317488 4.02596 0.502353 4.25486 0.734941Z"
+                fill="#00D9F8"
+                fill-opacity="0.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="section scroll section-team hero">
+        <div class="section-title">CORE TEAM</div>
+        <div id="section-team__slider" class="slider section-team__slider">
+          <div class="slider__arrow slider__prev">
+            <svg
+              width="33"
+              height="62"
+              viewBox="0 0 33 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M28.7451 0.734941L0.766424 29.1305C0.275021 29.6292 0 30.2982 0 30.9947C0 31.6912 0.275021 32.3601 0.766424 32.8588L28.7451 61.2651C28.974 61.4977 29.2477 61.6825 29.55 61.8087C29.8523 61.935 30.1771 62 30.5053 62C30.8334 62 31.1582 61.935 31.4605 61.8087C31.7628 61.6825 32.0365 61.4977 32.2654 61.2651C32.7364 60.7881 33 60.1478 33 59.481C33 58.8142 32.7364 58.1739 32.2654 57.6969L5.95507 30.9947L32.2654 4.29773C32.7347 3.82099 32.9974 3.18181 32.9974 2.51634C32.9974 1.85086 32.7347 1.21168 32.2654 0.734941C32.0365 0.502353 31.7628 0.317488 31.4605 0.191261C31.1582 0.0650331 30.8334 0 30.5053 0C30.1771 0 29.8523 0.0650331 29.55 0.191261C29.2477 0.317488 28.974 0.502353 28.7451 0.734941Z"
+                fill="#00D9F8"
+                fill-opacity="0.5"
+              />
+            </svg>
+          </div>
+          <div class="slider__content">
+            <div class="card team-card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="/img/ceo.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Hari Blumare</p>
+                    <p class="subtitle is-6">CEO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card team-card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img
+                    src="/img/digital-marketing.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">MARDY TANILON</p>
+                    <p class="subtitle is-6">DIGITAL MARKETING</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card team-card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="/img/game-design.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">MARISON EMERALD</p>
+                    <p class="subtitle is-6">GAME DESIGN</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card team-card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="/img/coo.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">ALVIN POSA</p>
+                    <p class="subtitle is-6">COO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card team-card">
+              <div class="card-image">
+                <figure class="image is-1by1">
+                  <img src="/img/2d-artist.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">BREONNA ANNIKA</p>
+                    <p class="subtitle is-6">2D ARTIST</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider__arrow slider__next">
+            <svg
+              width="33"
+              height="62"
+              viewBox="0 0 33 62"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.25486 0.734941L32.2336 29.1305C32.725 29.6292 33 30.2982 33 30.9947C33 31.6912 32.725 32.3601 32.2336 32.8588L4.25486 61.2651C4.02596 61.4977 3.75228 61.6825 3.44997 61.8087C3.14766 61.935 2.82285 62 2.49472 62C2.16659 62 1.84179 61.935 1.53948 61.8087C1.23717 61.6825 0.963486 61.4977 0.734581 61.2651C0.263649 60.7881 0 60.1478 0 59.481C0 58.8142 0.263649 58.1739 0.734581 57.6969L27.0449 30.9947L0.734581 4.29773C0.265266 3.82099 0.00263596 3.18181 0.00263596 2.51634C0.00263596 1.85086 0.265266 1.21168 0.734581 0.734941C0.963486 0.502353 1.23717 0.317488 1.53948 0.191261C1.84179 0.0650331 2.16659 0 2.49472 0C2.82285 0 3.14766 0.0650331 3.44997 0.191261C3.75228 0.317488 4.02596 0.502353 4.25486 0.734941Z"
+                fill="#00D9F8"
+                fill-opacity="0.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <footer class="footer scroll">
+        <div class="columns">
+          <div class="column is-half">
+            <div class="footer__left has-text-centered">
+              <a href="#"> <img class="footer__logo" src="/img/logo.png" /> </a>
+              <div class="footer__social-links">
+                <a href="https://t.me/Saloplayers" title="Telegram">
+                  <svg
+                    width="75"
+                    height="75"
+                    viewBox="0 0 75 75"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M37.5 0C16.7831 0 0 16.7855 0 37.5C0 58.2145 16.7855 75 37.5 75C58.2169 75 75 58.2145 75 37.5C75 16.7855 58.2145 0 37.5 0ZM55.9186 25.6911L49.7637 54.6944C49.3089 56.7508 48.0847 57.2492 46.3766 56.2815L37.0016 49.3718L32.4798 53.7266C31.9815 54.225 31.5581 54.6484 30.5903 54.6484L31.2556 45.1064L48.629 29.4097C49.3863 28.7444 48.4621 28.3669 47.4629 29.0323L25.9911 42.5492L16.7371 39.6605C14.7266 39.0266 14.6806 37.65 17.1605 36.6823L53.3153 22.7395C54.9944 22.1347 56.4605 23.1484 55.9161 25.6887L55.9186 25.6911Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+                <a href="https://twitter.com/saloplayers" title="Twitter">
+                  <svg
+                    width="75"
+                    height="75"
+                    viewBox="0 0 75 75"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M37.5 0C16.7913 0 0 16.7913 0 37.5C0 58.2087 16.7913 75 37.5 75C58.2087 75 75 58.2087 75 37.5C75 16.7913 58.2087 0 37.5 0ZM55.5218 28.2673C55.5469 28.6607 55.5469 29.0709 55.5469 29.4727C55.5469 41.7606 46.1886 55.9152 29.0876 55.9152C23.8142 55.9152 18.9258 54.3834 14.8075 51.7467C15.5608 51.8304 16.2807 51.8638 17.0508 51.8638C21.4035 51.8638 25.4046 50.3906 28.5938 47.8962C24.5089 47.8125 21.077 45.1339 19.9051 41.4509C21.3365 41.6602 22.6256 41.6602 24.0988 41.2835C21.9955 40.8562 20.105 39.7139 18.7485 38.0506C17.3919 36.3874 16.6531 34.3059 16.6574 32.1596V32.0424C17.8878 32.7372 19.3359 33.1641 20.851 33.2227C19.5774 32.3738 18.5329 31.2239 17.8101 29.8747C17.0873 28.5255 16.7086 27.0189 16.7076 25.4883C16.7076 23.7556 17.1596 22.1735 17.9715 20.8008C20.3061 23.6747 23.2193 26.0252 26.5217 27.6995C29.8242 29.3738 33.442 30.3344 37.1401 30.519C35.8259 24.1992 40.5469 19.0848 46.2221 19.0848C48.9007 19.0848 51.3114 20.2065 53.0106 22.0145C55.1116 21.6211 57.1205 20.8343 58.9118 19.7796C58.2171 21.9308 56.7606 23.7472 54.827 24.894C56.702 24.6931 58.51 24.1741 60.1842 23.4459C58.9202 25.3041 57.3382 26.9531 55.5218 28.2673Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+                <a href="#" title="Discord">
+                  <svg
+                    width="75"
+                    height="75"
+                    viewBox="0 0 75 75"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M37.5 75C58.2107 75 75 58.2107 75 37.5C75 16.7893 58.2107 0 37.5 0C16.7893 0 0 16.7893 0 37.5C0 58.2107 16.7893 75 37.5 75ZM21.4196 14.1339C20.0533 15.5003 19.2857 17.3534 19.2857 19.2857C19.2857 21.218 20.0533 23.0712 21.4196 24.4375C22.786 25.8038 24.6391 26.5714 26.5714 26.5714C28.5037 26.5714 30.3569 25.8038 31.7232 24.4375C33.0895 23.0712 33.8571 21.218 33.8571 19.2857C33.8571 17.3534 33.0895 15.5003 31.7232 14.1339C30.3569 12.7676 28.5037 12 26.5714 12C24.6391 12 22.786 12.7676 21.4196 14.1339ZM44.1336 25.1726L43.9806 25.056C42.4658 23.8699 41.4816 22.1327 41.2428 20.2237C41.0041 18.3146 41.5301 16.3885 42.7062 14.8659C43.8823 13.3432 45.6129 12.3476 47.5204 12.0962C49.4278 11.8449 51.3573 12.3582 52.8877 13.5242C54.4181 14.6902 55.4251 16.4142 55.689 18.32C55.953 20.2258 55.4524 22.1586 54.2965 23.6966C53.1406 25.2347 51.4233 26.2531 49.5193 26.5296C47.6153 26.8061 45.6793 26.3183 44.1336 25.1726ZM33.0358 27.9644C32.2757 28.5827 31.6481 29.3479 31.1906 30.2143C30.3103 31.8811 30.1103 33.8241 30.6326 35.6353C31.1549 37.4464 32.3587 38.9846 33.9913 39.9268C35.6239 40.869 37.558 41.1418 39.3875 40.6879C41.217 40.234 42.7993 39.0887 43.8021 37.4927C44.3234 36.6631 44.672 35.7368 44.827 34.7694C44.982 33.8019 44.9403 32.8131 44.7044 31.8622C44.4685 30.9112 44.0431 30.0176 43.4539 29.2348C42.8646 28.452 42.1235 27.7961 41.2749 27.3064C40.4262 26.8166 39.4876 26.503 38.515 26.3844C37.5424 26.2659 36.5559 26.3446 35.6144 26.6161C34.673 26.8876 33.796 27.3462 33.0358 27.9644ZM27.1907 30.2143H17.4643C16.0151 30.2143 14.6252 30.79 13.6005 31.8147C12.5757 32.8395 12 34.2294 12 35.6786C12 39.744 13.6757 43.0007 16.4151 45.2046C17.4462 46.0252 18.5911 46.6915 19.8139 47.1827C20.447 45.4145 21.611 43.8851 23.1467 42.8039C24.6824 41.7228 26.5147 41.1426 28.3929 41.1429H29.3546C27.6242 39.2121 26.5714 36.6549 26.5714 33.8571C26.5714 32.5821 26.79 31.3545 27.1907 30.2143ZM55.1824 47.1827C53.9256 43.6601 50.5596 41.1429 46.6071 41.1429H45.6454C47.4406 39.1411 48.4319 36.546 48.4286 33.8571C48.4286 32.5821 48.21 31.3545 47.8093 30.2143H57.5357C58.9849 30.2143 60.3748 30.79 61.3995 31.8147C62.4243 32.8395 63 34.2294 63 35.6786C63 39.744 61.3243 43.0007 58.5849 45.2046C57.5685 46.017 56.421 46.6764 55.1824 47.1827ZM52.0714 50.25C52.0714 49.5141 51.9257 48.8074 51.6598 48.1663C51.2471 47.1658 50.5465 46.3103 49.647 45.7085C48.7475 45.1066 47.6894 44.7855 46.6071 44.7857H28.3929C27.6747 44.7838 26.9633 44.9238 26.2995 45.1977C25.6357 45.4717 25.0325 45.8741 24.5247 46.3819C24.0169 46.8897 23.6145 47.4928 23.3406 48.1566C23.0667 48.8205 22.9266 49.5319 22.9286 50.25C22.9286 54.3154 24.6043 57.5721 27.3437 59.7761C30.0431 61.9436 33.6641 63 37.5 63C41.3359 63 44.9569 61.9436 47.6563 59.7761C50.3994 57.5721 52.0714 54.3154 52.0714 50.25Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="column is-flex is-align-items-center">
+            <div class="footer__links">
+              <a href="/">Home</a>
+              <a href="#">Download</a>
+              <a href="#">About Us</a>
+            </div>
+          </div>
+          <div class="column is-flex is-align-items-center">
+            <div class="footer__links">
+              <a href="/">FAQs</a>
+              <a href="#">Contact</a>
+              <a href="#">Whitepaper</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script
+        type="text/javascript"
+        src="//code.jquery.com/jquery-1.11.0.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      ></script>
+      <script type="text/javascript" src="/js/scroll.js"></script>
+      <script type="text/javascript" src="/js/index.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  color: $white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("/img/bg.png");
+  @media screen and (max-width: 768px) {
+    display: none;
+    background-repeat: repeat;
+    background-attachment: unset;
+    background-image: url("/img/mobile-bg.png");
+  }
+}
+
+/* Roadmap animations */
+
+[data-inviewport="fade-1"] {
+  opacity: 0;
+  transform: translateY(50px);
+}
+[data-inviewport="fade-1"].is-inViewport {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s;
+}
+[data-inviewport="fade-2"] {
+  opacity: 0;
+  transform: translateY(50px);
+}
+[data-inviewport="fade-2"].is-inViewport {
+  transition: 1s;
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-inviewport="fade-3"] {
+  opacity: 0;
+  transform: translateY(50px);
+}
+[data-inviewport="fade-3"].is-inViewport {
+  transition: 2.5s;
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-inviewport="fade-4"] {
+  opacity: 0;
+  transform: translateY(50px);
+}
+[data-inviewport="fade-4"].is-inViewport {
+  transition: 3s;
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-inviewport="fade-5"] {
+  opacity: 0;
+  transform: translateY(50px);
+}
+[data-inviewport="fade-5"].is-inViewport {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 3.5s;
+}
