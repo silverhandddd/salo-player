@@ -336,10 +336,10 @@ main {
     line-height: 30px;
     width: 100%;
     margin-top: -20px;
-    padding: 50px 86px 68px;
+    padding: 20px 86px 30px;
     @media screen and (max-width: 768px) {
       margin-top: -44px;
-      padding: 50px 30px 68px;
+      padding: 50px 40px 68px;
     }
     @media screen and (max-width: 1408px) {
       margin-top: -24px;
@@ -499,10 +499,10 @@ main {
     line-height: 30px;
     width: 100%;
     margin-top: -20px;
-    padding: 50px 86px 68px;
+    padding: 20px 86px 30px;
     @media screen and (max-width: 768px) {
       margin-top: -44px;
-      padding: 50px 30px 68px;
+      padding: 50px 40px 68px;
     }
     @media screen and (max-width: 1408px) {
       margin-top: -24px;
@@ -623,7 +623,6 @@ main {
 
   &__content-slider {
     max-width: 750px;
-    padding: 20px;
     margin: auto;
     @media screen and (max-width: 1408px) {
       max-width: 700px;
@@ -637,8 +636,6 @@ main {
     }
   }
   &__slider {
-
-
     .slider__prev {
       left: 12px !important;
     }
@@ -677,18 +674,18 @@ main {
   &__video {
     position: relative;
     padding: 100px 40px 40px;
-    height: 562px;
+    height: 480px;
     @media screen and (max-width: 1024px) {
       height: 300px;
     }
     iframe {
       position: absolute;
-      top: 0;
+      top: 30px;
       left: 0;
       bottom: 0;
       right: 0;
       width: 100%;
-      height: 562px;
+      height: 450px;
       z-index: 10;
       padding: 5px;
       @media screen and (max-width: 1024px) {
@@ -696,14 +693,13 @@ main {
       }
     }
     svg {
-      margin: -30px 0px 0px;
       position: absolute;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
       width: 100%;
-      height: 562px;
+      height: 480px;
     }
   }
 }
@@ -715,12 +711,6 @@ main {
     width: 90%;
     align-items: flex-end;
     margin-bottom: 5%;
-    @media screen and (max-width: 1600px) {
-      margin-bottom: 12%;
-    }
-    @media screen and (max-width: 1408px) {
-      margin-bottom: 5%;
-    }
     @media screen and (max-width: 1216px) {
       justify-content: center;
       width: 100%;
